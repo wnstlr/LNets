@@ -1,5 +1,5 @@
 {
-    "cuda": false,
+    "cuda": true,
     "task": "classify",
     "output_root": "out/classification/mnist",
     "exp_name": "lipschitz-standard",
@@ -61,7 +61,7 @@
         ],
         "last_epoch": -1
       },
-      "epochs": 200,
+      "epochs": 10,
       "batch_size": 128,
       "momentum": 0.9,
       "betas": [

@@ -1,5 +1,5 @@
 {
-    "cuda": false,
+    "cuda": true,
     "task": "classify",
     "output_root": "out/classification/mnist",
     "exp_name": "lipschitz-bjorck",
@@ -52,7 +52,7 @@
       "optimizer": "adam",
       "lr_schedule": {
         "name": "step",
-        "lr_init": 0.001,
+        "lr_init": 0.0005,
         "lr_decay": 0.1,
         "milestones": [
           60,
